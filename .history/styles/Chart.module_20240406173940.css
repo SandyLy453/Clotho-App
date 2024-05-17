@@ -1,0 +1,19 @@
+.bulletPointJean {
+    list-style-type: '👖';
+    padding-left: 10px;
+}
+
+.bulletPointDress {
+    list-style-type: '👗';
+    padding-left: 10px;
+}
+
+.bulletPointTShirt {
+    list-style-type: '🧥';
+    padding-left: 10px;
+}
+
+.bulletPointShoes {
+    list-style-type: '🥾';
+    padding-left: 10px;
+}

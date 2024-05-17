@@ -1,0 +1,5 @@
+.items {
+    font-size: var(--medium);
+    width: 200px;
+    padding: 15px;
+}

@@ -1,0 +1,46 @@
+.cardHolder {
+    width: 390px;
+    height: 275px;
+}
+
+.photoHolder,
+.smallBox,
+.quater,
+.pair,
+.pairTop {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.textHolder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.photoHolder {
+    padding: 0;
+    margin: 0;
+}
+
+.quater {
+    width: 200px;
+}
+
+.pairTop {
+    padding-bottom: 6px
+}
+
+.pair {
+    padding-top: 6px;
+}
+.topSmall,
+.bottomSmall {
+    padding: 0 5px 0 5px;
+}
+
+

@@ -1,0 +1,47 @@
+.questionAnalysis {
+    padding: 25px;
+}
+
+.title {
+    font-family: var(--roboto-slab-text);
+}
+.analysisTitle {
+    font-family: var(--roboto-slab-text);
+    color: var(--button-highlight-light);
+}
+
+.chart {
+    padding-top: -100px;
+}
+
+.mainContents {
+    top: -50px;
+}
+
+.analysisContent {
+    font-family: var(--open-sans-text);
+}
+
+.bulletPointJean {
+    list-style-type: '👖';
+    padding-left: 10px;
+}
+
+.bulletPointDress {
+    list-style-type: '👗';
+    padding-left: 10px;
+}
+
+.bulletPointTShirt {
+    list-style-type: '🧥';
+    padding-left: 10px;
+}
+
+.bulletPointShoes {
+    list-style-type: '📿';
+    padding-left: 10px;
+}
+
+.buttonPosition {
+    padding-left: 110px;
+}

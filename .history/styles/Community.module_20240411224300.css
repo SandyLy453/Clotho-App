@@ -1,0 +1,5 @@
+@media (max-width: 430px) {
+    .title {
+        font-family: var(--roboto-slab-text);
+    }
+}

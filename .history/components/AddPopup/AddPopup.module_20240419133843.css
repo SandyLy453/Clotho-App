@@ -1,0 +1,23 @@
+.container {
+    width: 350px;
+    height: 160px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 30px 20px 30px 20px;
+    background: gainsboro;
+    margin: auto;
+}
+
+.triangle {
+    z-index: 0;
+    width: 50px;
+    height: 45px;
+    flex-shrink: 0;
+    background: gainsboro;
+    padding: 0;
+    margin: auto;
+}
+
+
+

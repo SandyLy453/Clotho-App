@@ -1,0 +1,26 @@
+.main {
+    background-image: url('/images/quiz/Light Mode Low Opacity.png'); 
+    height: 100vh; 
+    background-size: cover; 
+    background-position: center;
+}
+
+.title {
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+}
+
+.pageTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 60px;
+}
+
+.menuIcon {
+    padding-top: 20px;
+    padding-right: 33px;
+}
+
+
+

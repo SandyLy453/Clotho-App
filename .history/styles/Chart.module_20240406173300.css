@@ -1,0 +1,7 @@
+.bulletPoints {
+    padding-left: 20px;
+}
+
+#bulletPointStyle {
+    list-style-type: '👖';
+}

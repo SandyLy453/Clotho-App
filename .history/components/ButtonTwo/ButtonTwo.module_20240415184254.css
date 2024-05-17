@@ -1,0 +1,19 @@
+.button {
+    padding: 15px; 
+    width: 185px; 
+    height: 150px; 
+    font-size: 15px;
+    background-image: linear-gradient(var(--button-linear-light));
+    color: var(--black);
+    border: none;
+    border-radius: 11px;
+    cursor: pointer;
+    border: var(--button-outline-light);
+    font-family: var(--open-sans-text);
+}
+
+.button:hover {
+    background-color: var(--button-highlight-light); 
+    background-image: none;
+    color: var(--white); 
+}

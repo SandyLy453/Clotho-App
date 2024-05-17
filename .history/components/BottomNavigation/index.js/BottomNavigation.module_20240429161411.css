@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 430px;
+    height: 82px;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    padding: 0;
+}
+
+.background {
+    position: absolute;
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+    bottom: -12px;
+}
+
+.home,.inventory,.plus,.collection,.community {
+    position: relative;
+    display: flex;
+    justify-content:space-around;
+    padding: 14px 14px 15px 15px;
+    margin: 2px;
+}
+
+.iconHolder {
+    display: block;
+}
+
+.iconHolder,
+.chosenIcon {
+    display: block;
+    border-radius: 50%;
+}
+
+

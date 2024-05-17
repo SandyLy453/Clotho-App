@@ -1,0 +1,70 @@
+import { useState, useEffect, useRef } from 'react';
+import styles from './Navigation.module.css';
+import Image from 'next/image';
+import MenuItem from '../MenuItem';
+import Link from 'next/link';
+
+export default function Navigation({ toggleMenu }) {
+    const [isOpen, setIsOpen] = useState(false);
+    const navigationRef = useRef();
+
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            if (navigationRef.current && !navigationRef.current.contains(event.target)) {
+                setIsOpen(false);
+            }
+        };
+
+        document.addEventListener('mousedown', handleClickOutside);
+
+        return () => {
+            document.removeEventListener('mousedown', handleClickOutside);
+        };
+    }, []);
+
+    const handleToggleMenu = () => {
+        setIsOpen(!isOpen);
+        toggleMenu(); // Call the function passed from the parent component
+    };
+
+    return (
+        <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', backgroundColor: 'rgba(0, 0, 0, 0.5)', zIndex: 100 }}>
+        <div className={styles.sideNav} style={{ position: 'fixed', top: 0, left: 0, width: '300px', height: '100%', backgroundColor: 'white', transform: `translateX(${isOpen ? '0%' : '-100%'})`, transition: 'transform 0.3s ease-in-out' }} ref={navigationRef}>
+            <div className={styles.appInfo}>
+                <Image src="/images/closet-space-app.png" alt="App Logo" width={100} height={100} />
+                <p className={styles.appName}>Clotho</p>
+            </div>
+
+            <div className={styles.userInfo}>
+                <Image src="/images/user.png" alt="User Image" width={50} height={50} />
+                <p className={styles.welcome}>Welcome!</p>
+            </div>
+
+            <div>
+                <Link href="/Profile/Profile">
+                    <MenuItem title="Profile" />
+                </Link>
+                <Link href="/Calendar/Calendar">
+                    <MenuItem title="Calendar" />
+                </Link>
+                <MenuItem title="Posts" />
+                <Link href="/ThriftStore/ThriftStore">
+                    <MenuItem title="Thrift Stores" />
+                </Link>
+                <MenuItem title="Favourite Fashion Trends" />
+                <MenuItem title="History" paddingBottom="30px" />
+                <hr />
+                <MenuItem title="Setting" paddingTop="30px" />
+                <MenuItem title="Help" />
+                <MenuItem title="Sign Out" />
+            </div>
+        </div>
+
+        <div className={styles.hamburgerMenu} onClick={handleToggleMenu}>
+            <Image src="/images/menu-burger.png" alt="Menu" width={30} height={30} />
+        </div>
+    </div>
+);
+}
+
+

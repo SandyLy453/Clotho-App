@@ -1,0 +1,51 @@
+.container {
+    width: 350px;
+    height: 160px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 30px 20px 30px 20px;
+    background: white;
+    margin: auto;
+}
+
+.triangle {
+    margin-top: -22px;
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 45px solid white;
+    z-index: -1;
+    padding: 0%;
+    margin-bottom: 10px ;
+    align-items: center;
+    margin: auto;
+    position: absolute;
+    top: 100%;
+    left: 47.5%;
+}
+
+.box {
+    margin: 0;
+    padding: 0;
+    z-index: 100;
+    position: fixed;
+    left: 52%;
+    transform: translateX(-50%);
+    width: 350px;
+    bottom: 105px;
+    align-items: center;
+}
+
+.background {
+    position: fixed;
+    z-index: 99;
+    width: 430px;
+    height: 852px;
+    background: rgb(0, 0, 0, 0.5);
+    top: 0;
+    left: 545px;
+    align-items: center;
+}
+

@@ -1,0 +1,20 @@
+:root {
+    --black: black;
+    --white: white;
+    --transparency: rgba(0, 0, 0, 0);
+    --gray: rgb(119, 119, 119);
+    
+    --large: 21px;
+    --medium: 18px;
+    --small: 16px;
+    --logo: 25px;
+}
+
+html, 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+

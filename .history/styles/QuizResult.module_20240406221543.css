@@ -1,0 +1,12 @@
+.report {
+    list-style-type: "🌟 ";
+}
+
+.result {
+    font-family: var(--open-sans-text);
+    font-size: var(--open-sans-size)
+}
+
+.title {
+    font-family: var(--roboto-slab-text);
+}

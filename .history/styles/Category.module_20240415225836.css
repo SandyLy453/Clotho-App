@@ -1,0 +1,102 @@
+.mainContainer { 
+    height: 100vh; 
+    background-image: url('/images/quiz/Light Mode Low Opacity.png'); 
+    background-size: cover; 
+    background-position: center;
+    background-origin: content-box;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: calc(100vh -20px); 
+    padding-bottom: 20px; */
+}
+
+.title {
+    font-family: var(--roboto-slab-text);
+    font-weight: var(--roboto-slab-weight-small);
+    font-size: var(--roboto-slab-small);
+    color: var(--black);
+    padding-top: 40px;
+    margin: 0;
+}
+
+.content {
+    font-family: var(--open-sans-text);
+    font-size: var(--open-sans-small);
+}
+
+.headline {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-right: 70px;
+}
+
+.user {
+    align-items: end;
+    padding-top: 40px;
+}
+
+.topHead {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.chip {
+    display: flex;
+    justify-content: center;
+}
+
+.chip::-webkit-scrollbar {
+    width: 0;
+}
+
+.chip > div {
+    display: inline-block;
+}
+
+.carouselContainer {
+    max-width: 290px;
+    padding-left: 140px;
+    overflow-x: auto;
+}
+
+.popup {
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1)
+}
+
+.frame {
+    height: calc(600px + 20px);
+    width: auto;
+    border: 0px var(--white);
+    background-color: var(--inventory-bgColor);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.1);
+}
+
+.photo {
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+.popup h2, .popup h4 {
+    padding-left: 20px;
+}
+
+.frame p {
+    line-height: 5px;
+    padding-left: 20px;
+}

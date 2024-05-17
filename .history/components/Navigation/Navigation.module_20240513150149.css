@@ -1,0 +1,55 @@
+.appInfo {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center; /* Align items vertically */
+}
+
+.appName {
+    font-size: var(--logo);
+    padding: 25px 0px 0px 10px;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 20px; 
+    align-items: center;
+}
+
+.welcome {
+    font-family: var(--open-sans-text);
+    font-weight: var(--open-sans-weight);
+    font-size: var(--open-sans-size;
+    padding: 0px 10px;
+}
+
+.sideNav {
+    position: fixed;
+    z-index: 100;
+    width: 300px; /* Keep fixed width for navigation */
+    height: 100vh; /* Use full viewport height for consistency */
+    background-image: url('/images/quiz/Light Mode Low Opacity.png');
+    background-size: cover;
+    background-position: center;
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.sideNav :any-link {
+    text-decoration: none;
+    color: black;
+}
+
+.box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Ensure full overlay */
+    height: 100vh; /* Use full viewport height for consistency */
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 99; /* Below the sideNav z-index */
+}
+
+.navigation {
+    padding-bottom: 90px;
+}

@@ -1,0 +1,38 @@
+@media (max-width: 430px) {
+
+    .mainContainer { 
+        height: 100vh; 
+        background-image: url('/images/quiz/Light Mode Low Opacity.png'); 
+        background-size: cover; 
+        background-position: center;
+        background-origin: content-box;
+    }
+
+    .contentContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* height: calc(100vh -20px); 
+        padding-bottom: 20px; */
+    }
+
+    .title {
+        font-family: var(--roboto-slab-text);
+        font-weight: var(--roboto-slab-weight-small);
+        font-size: var(--roboto-slab-small);
+        color: var(--black);
+        padding-top: 20px;
+        margin: 0;
+    }
+
+    .content {
+        font-family: var(--open-sans-text);
+        font-size: var(--open-sans-small);
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

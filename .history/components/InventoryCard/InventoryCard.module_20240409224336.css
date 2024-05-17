@@ -1,0 +1,29 @@
+.fieldset {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    border: 
+}
+
+.title {
+    font-family: var(--roboto-slab-text);
+    font-weight: var(--roboto-slab-weight);
+    font-size: var(--roboto-slab-size);
+    color: var(--black);
+}
+
+.image {
+    padding-top: 10px;
+}
+
+.content {
+    font-family: var(--open-sans-text);
+    font-size: var(--open-sans-small);
+}

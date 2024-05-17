@@ -1,0 +1,73 @@
+.main {
+    background-image: url('/images/quiz/Light Mode Low Opacity.png'); 
+    height: 100vh; 
+    background-size: cover; 
+    background-position: center;
+    width: 430px;
+    padding: 0;
+    margin: 0;
+}
+  
+.menuIcon {
+    padding-top: 20px;
+    padding-right: 33px;
+}
+  
+.userIcon {
+    padding-top: 20px;
+    padding-left: 120px;
+}
+  
+.title {
+    font-family: "Roboto Slab";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+  
+.pageTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: calc(100vh -20px); 
+    padding-bottom: 20px; */
+}
+
+.chip {
+    display: flex;
+    justify-content: center;
+}
+
+.chip::-webkit-scrollbar {
+    width: 0;
+}
+
+.chip > div {
+    display: inline-block;
+}
+
+.carouselContainer {
+    max-width: 400px;
+    padding-left: 0px;
+    overflow-x: auto;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+
+

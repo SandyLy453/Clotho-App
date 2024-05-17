@@ -1,0 +1,16 @@
+.appInfo {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: row;
+}
+
+.sideNav {
+    position: relative;
+    z-index: 2;
+    left: -40px;
+}

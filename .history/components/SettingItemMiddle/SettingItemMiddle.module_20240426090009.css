@@ -1,0 +1,24 @@
+.box {
+    width: 400px;
+    height: 40px;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    align-items: center;
+    background: rgb(240, 240, 240);
+}
+
+.box:hover {
+    background: rgb(230, 230, 230);
+}
+
+.item {
+    padding-left: 20px;
+    padding-top: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+

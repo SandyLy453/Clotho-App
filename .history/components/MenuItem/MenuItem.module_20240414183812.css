@@ -1,0 +1,11 @@
+.items {
+    font-size: var(--medium);
+    width: 250px;
+    padding: 15px;
+    padding-left: 30px;
+}
+
+.items:hover,.items:active {
+    background-color: var(--button-highlight-light);
+    color: var(--white);
+}

@@ -1,0 +1,15 @@
+.popUp {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    border: var(--inventory-card-outline);
+    margin: 30px;
+    padding: 30px;
+    font-family: var(--open-sans-small);
+    margin-bottom: 50px;
+}
+
+
+
+

@@ -1,0 +1,141 @@
+.main {
+    background-image: url('/images/quiz/Light Mode Low Opacity.png'); 
+    background-size: cover; 
+    align-items: center;
+    width: 430px;
+    height: 930px;
+}
+  
+.box {
+    min-height: 100vh;
+    padding-bottom: 100px;
+    width: 430px;
+}
+  
+.menuIcon {
+    padding-top: 20px;
+    padding-right: 33px;
+}
+  
+.userIcon {
+    padding-top: 20px;
+    padding-left: 150px;
+}
+  
+.title {
+    font-family: "Roboto Slab";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+  
+.pageTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px 0 30px;
+    margin-bottom: 0;
+}
+
+.text p {
+    color: #707070;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.seeAll {
+    text-decoration: underline;
+}
+
+.date {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 390px;
+    margin-top: 0;
+    padding: 0 20px 0 20px;
+}
+
+.dateBox {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 24px;
+    padding: 20px 13px 20px 13px;
+    margin-top: 0;
+}
+
+.currentDate {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 24px;
+    padding: 20px 13px 20px 13px;
+    margin-top: 0;
+    background-color: var(--button-highlight-light);
+    border-radius: 15px;
+}
+
+.currentDate .dateName,
+.currentDate .dateNumber {
+    color: var(--white);
+}
+
+.dateNumber {
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.3px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.dateName {
+    padding: 0;
+    margin: 0;
+    color: #909090;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.3px;
+}
+
+.time {
+    margin: 0;
+    padding: 0 20px 10px 20px;
+}
+
+.number {
+    color: #A5A5A5;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.3px;
+    padding: 10px 20px 10px 20px;
+}
+
+.space {
+    height: 75px;
+}
+

@@ -1,0 +1,80 @@
+.mainContainer { 
+    height: 100vh; 
+    background-image: url('/images/quiz/Light Mode Low Opacity.png'); 
+    background-size: cover; 
+    background-position: center;
+    background-origin: content-box;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: calc(100vh -20px); 
+    padding-bottom: 20px; */
+}
+
+.title {
+    font-family: var(--roboto-slab-text);
+    font-weight: var(--roboto-slab-weight-small);
+    font-size: var(--roboto-slab-small);
+    color: var(--black);
+    padding-top: 40px;
+    margin: 0;
+}
+
+.content {
+    font-family: var(--open-sans-text);
+    font-size: var(--open-sans-small);
+}
+
+.headline {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-right: 70px;
+}
+
+.user {
+    align-items: end;
+    padding-top: 40px;
+}
+
+.topHead {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.chip {
+    display: flex;
+    justify-content: center;
+}
+
+.chip::-webkit-scrollbar {
+    width: 0;
+}
+
+.chip > div {
+    display: inline-block;
+}
+
+.carouselContainer {
+    max-width: 430px;
+    padding-left: 20px;
+    overflow-x: auto;
+}
+
+.chipButton {
+    margin: 0 0 0 12em;
+    padding: 0;
+}

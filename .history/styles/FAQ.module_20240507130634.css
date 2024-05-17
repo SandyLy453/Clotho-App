@@ -1,0 +1,59 @@
+.main {
+    background-image: url('/images/quiz/Light Mode Low Opacity.png'); 
+    background-size: cover; 
+    align-items: center;
+  }
+  
+  .box {
+    min-height: 100vh;
+    padding-bottom: 100px;
+    width: 430px;
+  }
+  
+  .menuIcon {
+    padding-top: 20px;
+    padding-right: 33px;
+  }
+  
+  .userIcon {
+    padding-top: 20px;
+    padding-left: 200px;
+  }
+  
+  .title {
+    font-family: "Roboto Slab";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .pageTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 30px;
+    padding-left: 20px;
+  }
+
+.question{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0 20px 5px 30px;
+    margin: 0;
+}
+
+.answer {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0 20px 15px 30px;
+    margin: 0;
+    text-align: justify;
+}
+

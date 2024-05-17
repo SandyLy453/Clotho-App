@@ -1,0 +1,87 @@
+
+.main {
+    background-image: url('/images/quiz/Light Mode Low Opacity.png'); 
+    height: 100vh; 
+    background-size: cover; 
+    background-position: center;
+}
+
+.title {
+    font-family: "Roboto Slab";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.pageTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.menuIcon {
+    padding-top: 40px;
+    padding-right: 33px;
+}
+
+.userIcon {
+    padding-top: 40px;
+    padding-left: 134px;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    /* height: calc(100vh -20px); 
+    padding-bottom: 20px; */
+}
+
+.title {
+    font-family: var(--roboto-slab-text);
+    font-weight: var(--roboto-slab-weight-small);
+    font-size: var(--roboto-slab-small);
+    color: var(--black);
+    padding-top: 40px;
+    margin: 0;
+}
+
+.content {
+    font-family: var(--open-sans-text);
+    font-size: var(--open-sans-small);
+    text-align: center;
+    align-items: end;
+    text-decoration: none;
+}
+
+.headline {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-right: 70px;
+}
+
+.user {
+    align-items: end;
+    padding-top: 55px;
+}
+
+.topHead {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}

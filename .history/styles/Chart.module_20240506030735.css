@@ -1,0 +1,110 @@
+.questionAnalysis {
+    padding: 10px;
+}
+
+.title {
+    font-family: var(--roboto-slab-text);
+    font-weight: var(--roboto-slab-weight);
+    color: var(--black);
+    padding: 40px 10px; 
+    margin: 30px 20px;
+    text-align: center;
+}
+
+.subTitle {
+    font-family: var(--roboto-slab-text);
+    text-align: center;
+}
+
+.analysisTitle {
+    font-family: var(--roboto-slab-text);
+}
+
+.questionAnalysis p {
+    font-family: var(--open-sans-text);
+}
+
+.jean {
+    list-style-type: '👖';
+    padding-left: 10px;
+}
+
+.dress {
+    list-style-type: '👗';
+    padding-left: 10px;
+}
+
+.tShirt {
+    list-style-type: '🧥';
+    padding-left: 10px;
+}
+
+.shoes {
+    list-style-type: '📿';
+    padding-left: 10px;
+}
+
+.buttonPosition {
+    position: relative;
+    margin: auto;
+    align-items: center;
+    left: 180px;
+}
+
+.contentContainer {
+    align-items: center;
+}
+
+.mainContainer {
+    padding: 20px;
+}
+
+.chart,.chartTitle {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.chartTitle {
+    position: absolute;
+    top: -10px;
+    left: 110px;
+}
+
+.customTooltip {
+    border: var(--button-outline-light);
+    border-radius: 15px;
+    background-color: var(--white-transparent);
+    padding: 0 10px;
+}
+
+.pageTitle {
+    font-family: var(--roboto-slab-text);
+    font-weight: var(--roboto-slab-weight);
+    color: var(--black);
+    padding-bottom: 30px;
+    margin-top: 700px;
+   
+    text-align: center;
+}
+
+.pageSubTitle {
+    font-family: var(--roboto-slab-text);
+    font-weight: var(--roboto-slab-weight);
+    color: var(--black);
+    text-align: center;
+    margin: 0;
+    padding-top: 0;
+}
+
+.splineContainer {
+    height: 350px;
+}
+
+.chartContent {
+    margin-top: 20px;
+    padding-top: 100px;
+}

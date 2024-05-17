@@ -1,0 +1,27 @@
+h1,h3 {
+    font-family: var(--roboto-slab-text);
+}
+
+p {
+    font-family: var(--open-sans-text);
+}
+
+.bulletPointJean {
+    list-style-type: '👖';
+    padding-left: 10px;
+}
+
+.bulletPointDress {
+    list-style-type: '👗';
+    padding-left: 10px;
+}
+
+.bulletPointTShirt {
+    list-style-type: '🧥';
+    padding-left: 10px;
+}
+
+.bulletPointShoes {
+    list-style-type: '📿';
+    padding-left: 10px;
+}

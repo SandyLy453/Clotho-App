@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 430px;
+    height: 82px;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    padding: 0;
+    z-index: 1000;
+}
+
+.background {
+    position: absolute;
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+    bottom: -12px;
+}
+
+.home,.plus {
+    position: relative;
+    display: flex;
+    justify-content:space-around;
+    padding: 10px;
+    margin: 10px;
+}
+
+.inventory {
+    position: relative;
+    display: flex;
+    justify-content:space-around;
+    padding: 10px;
+    padding-right: 13px;
+    padding-bottom: 15px;
+    margin: 10px;
+}
+
+.collection {
+    position: relative;
+    display: flex;
+    justify-content:space-around;
+    padding: 10px;
+    padding-right: 13px;
+    padding-top: 15px;
+    padding-bottom: 13px;
+    margin: 10px;
+}
+
+.community {
+    position: relative;
+    display: flex;
+    justify-content:space-around;
+    padding: 7px 14px 14px 7px;
+    margin: 10px;
+}
+
+.iconHolder {
+    display: block;
+}
+
+.iconHolder,
+.chosenIcon {
+    display: block;
+    border-radius: 50%;
+}
+
+

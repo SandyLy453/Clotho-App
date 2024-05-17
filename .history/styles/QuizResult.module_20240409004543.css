@@ -1,0 +1,13 @@
+
+
+.report {
+    list-style-type: "🌟 ";
+}
+
+.result {
+    font-family: var(--open-sans-text);
+}
+
+.title {
+    font-family: var(--roboto-slab-text);
+}

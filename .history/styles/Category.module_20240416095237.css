@@ -1,0 +1,162 @@
+.main {
+    background-image: url('/images/quiz/Light Mode Low Opacity.png'); 
+    height: 100vh; 
+    background-size: cover; 
+    background-position: center;
+}
+
+.title {
+    font-family: "Roboto Slab";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.pageTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.menuIcon {
+    padding-top: 40px;
+    padding-right: 33px;
+}
+
+.userIcon {
+    padding-top: 40px;
+    padding-left: 140px;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: calc(100vh -20px); 
+    padding-bottom: 20px; */
+}
+
+.title {
+    font-family: var(--roboto-slab-text);
+    font-weight: var(--roboto-slab-weight-small);
+    font-size: var(--roboto-slab-small);
+    color: var(--black);
+    padding-top: 40px;
+    margin: 0;
+}
+
+.content {
+    font-family: var(--open-sans-text);
+    font-size: var(--open-sans-small);
+}
+
+.headline {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-right: 70px;
+}
+
+.user {
+    align-items: end;
+    padding-top: 40px;
+}
+
+.topHead {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.chip {
+    display: flex;
+    justify-content: center;
+}
+
+.chip::-webkit-scrollbar {
+    width: 0;
+}
+
+.chip > div {
+    display: inline-block;
+}
+
+.carouselContainer {
+    max-width: 290px;
+    padding-left: 140px;
+    overflow-x: auto;
+}
+
+.popupBackground {
+    width: 430px;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9998;
+    position: fixed;
+    bottom: 0;
+}
+
+.popup {
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    bottom: 0;
+    width: 430px;
+    display: flex;
+    justify-content: center;
+    z-index: 9999;
+    margin: 0;
+    padding: 0;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+}
+
+.frame {
+    height: calc(600px + 100px);
+    width: 430px;
+    border: 0px var(--white);
+    background-color: var(--inventory-bgColor);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+}
+
+.photo {
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+.popup h2, .popup h4 {
+    padding-left: 20px;
+    font-family: var(--roboto-slab-text);
+}
+
+.frame p {
+    line-height: 5px;
+    padding-left: 20px;
+    font-family: var(--open-sans-text);
+}
+
+.button {
+    padding-top: 30px;
+    text-align: center;
+}
+
+
+
+
+

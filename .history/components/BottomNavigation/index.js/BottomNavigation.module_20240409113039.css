@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 377px;
+    height: 75px;
+    margin: 0;
+    align-items: center;
+    background-color: var(--button-linear-light);
+}
+
+.home,.inventory,.plus,.collection,.community {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 10px 14px 10px;
+}
+
+.iconHolder {
+    display: block;
+}
+
+.iconHolder,
+.chosenIcon {
+    display: block;
+    border-radius: 50%;
+}
+
+

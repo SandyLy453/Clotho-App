@@ -1,0 +1,57 @@
+:root {
+    
+    --transparency: rgba(0, 0, 0, 0);
+    --gray: rgb(119, 119, 119);
+    --red: rgb(201, 8, 8);
+    
+    --large: 21px;
+    --medium: 18px;
+    --small: 16px;
+    --logo: 25px;
+
+    --button-linear-light: 45deg, rgba(221, 184, 255, 0.8), rgba(214, 239, 255, 0.8);
+    --button-outline-light: 2px solid #B8C0FF;
+    --inventory-card-outline: 4px solid #B8C0FF;
+    --button-highlight-light: #8229E0;
+    --black: black;
+    --white: white;
+    --white-transparent: rgba(255, 255, 255, 0.5);
+    --light-gray: #B3B3B3;
+
+    --chart-color-purple: #8884d8;
+    --chart-color-blue: #83a6ed;
+    --chart-color-cyan: #8dd1e1;
+    --chart-color-bright-purple: #b399ff;
+    --chart-color-light-purple: #b8c0ff;
+
+    --inventory-bgColor: #FBFBFB;
+
+
+
+    /* Text styles */
+    --open-sans-text: 'Open Sans', sans-serif;
+    --open-sans-weight: 500; 
+    --open-sans-size: 1.7rem;
+    --open-sans-small: 1rem;
+    --open-sans-medium: 1.2rem;
+    --open-sans-news: 0.6rem;
+    --open-sans-news-title: 0.5rem;
+
+    --roboto-slab-text: 'Roboto Slab', serif;
+    --roboto-slab-weight: 600; 
+    --roboto-slab-weight-small: 300;
+    --roboto-slab-size: 3rem;
+    --roboto-slab-small: 2rem;
+}
+
+
+html, 
+body {
+    padding: 0;
+    width: 430px;
+    min-height: 923px;
+    margin: 0 auto 0 auto;
+}
+
+
+

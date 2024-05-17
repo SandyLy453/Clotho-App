@@ -1,0 +1,11 @@
+.bulletPoints {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.bulletPoints li::before {
+    content: "★";
+    display: inline-block;
+    width: 20px;
+    margin-left: -20px;
+}

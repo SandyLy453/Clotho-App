@@ -1,0 +1,63 @@
+@media (max-width: 430px) {
+
+.mainContainer { 
+    height: 100vh; 
+    background-image: url('/images/quiz/Light Mode Low Opacity.png'); 
+    background-size: cover; 
+    background-position: center;
+    
+}
+
+.questionAnalysis {
+    padding: 25px;
+}
+
+.title {
+    font-family: var(--roboto-slab-text);
+    font-weight: var(--roboto-slab-weight);
+    font-size: var(--roboto-slab-size);
+    color: var(--black);
+    padding: 40px 10px; 
+    margin: 30px 20px;
+    text-align: center;
+}
+
+.subTitle {
+    font-family: var(--roboto-slab-text);
+    text-align: center;
+}
+
+.analysisTitle {
+    font-family: var(--roboto-slab-text);
+}
+
+.analysisContent {
+    font-family: var(--open-sans-text);
+}
+
+.bulletPointJean {
+    list-style-type: '👖';
+    padding-left: 10px;
+}
+
+.bulletPointDress {
+    list-style-type: '👗';
+    padding-left: 10px;
+}
+
+.bulletPointTShirt {
+    list-style-type: '🧥';
+    padding-left: 10px;
+}
+
+.bulletPointShoes {
+    list-style-type: '📿';
+    padding-left: 10px;
+}
+
+.buttonPosition {
+    position: absolute;
+    bottom: calc(100vh - 1350px);
+    left: 101px;
+}
+}

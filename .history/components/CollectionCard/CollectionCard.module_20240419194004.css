@@ -1,0 +1,25 @@
+.photoHolder,
+.smallBox,
+.quater,
+.pair {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.photoHolder {
+    width: 390px;
+    height: 275px;
+}
+
+.quater {
+    width: 200px;
+}
+
+.topSmall,
+.bottomSmall {
+    padding: 5px;
+}
+
+

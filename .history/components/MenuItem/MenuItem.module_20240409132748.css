@@ -1,0 +1,10 @@
+.items {
+    font-size: var(--medium);
+    width: 200px;
+    padding: 15px;
+    padding-left: 30px;
+}
+
+.items:hover {
+    background-color: var(--button-highlight-light);
+}

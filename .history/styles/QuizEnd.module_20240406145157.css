@@ -1,0 +1,59 @@
+/* iPhone 14 Pro */
+@media (max-width: 430px) {
+    
+        
+    .mainContainer { 
+        height: 100vh; 
+        background-image: url('/images/quiz/light-mode.png'); 
+        background-size: cover; 
+        background-position: center;
+        
+    }
+
+    .contentContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: calc(100vh - 20px); 
+        padding-bottom: 20px;
+    }
+
+    .optionContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center; 
+        height: 100vh; 
+        
+        
+    }
+
+    .finishButtonContainer {
+        position: fixed;
+        bottom: calc(100vh - 820px);
+        left: 101px;
+     
+    }
+
+    .openSansText {
+        font-family: var(--open-sans-text);
+        font-weight: var(--open-sans-weight);
+        font-size: var(--open-sans-size);
+        color: var(--light-gray);
+        padding: 40px 10px; 
+        margin: 30px 20px;
+        text-align: center;
+    }
+
+    .title {
+        font-family: var(--roboto-slab-text);
+        font-weight: var(--roboto-slab-weight);
+        font-size: var(--roboto-slab-size);
+        color: var(--black);
+        padding: 40px 10px; 
+        margin: 30px 20px;
+        text-align: center;
+    }
+
+}

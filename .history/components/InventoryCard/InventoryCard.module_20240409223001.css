@@ -1,0 +1,16 @@
+.fieldset {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+}
+
+.image {
+    padding-top: 10px;
+}

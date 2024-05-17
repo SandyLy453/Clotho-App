@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 200px;
+    margin: 0;
+    align-items: center;
+}
+
+.home,.inventory,.plus,.collection,community {
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconHolder {
+    display: block;
+}
+
+.iconHolder,
+.chosenIcon {
+    display: block;
+    border-radius: 50%;
+}
+
+

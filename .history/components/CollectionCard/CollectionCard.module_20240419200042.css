@@ -1,0 +1,75 @@
+.cardHolder {
+    width: 390px;
+    height: 275px;
+}
+
+.cardHolder:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+.photoHolder,
+.smallBox,
+.quater,
+.pair,
+.pairTop {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.smallBox {
+    width: 200px;
+}
+
+.textHolder {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 10px;
+}
+
+.photoHolder {
+    padding: 0 0 10px 0;
+    margin: 0;
+}
+
+.quater {
+    width: 200px;
+}
+
+.pairTop {
+    padding-bottom: 6px
+}
+
+.pair {
+    padding-top: 6px;
+}
+.topSmall,
+.bottomSmall {
+    padding: 0 5px 0 5px;
+    border: 0.5px solid rgb(233, 233, 233);
+}
+
+.large {
+    padding: 4;
+    border: 0.5px solid rgb(233, 233, 233);
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    width: 390px;
+}
+
+
+
+
+
+

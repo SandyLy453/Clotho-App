@@ -1,0 +1,8 @@
+/* Mobile */
+@media (max-width: 430px) {
+    .items {
+        font-size: var(--medium);
+        width: 150px;
+        padding: 15px;
+    }
+}

@@ -1,0 +1,81 @@
+.questionAnalysis {
+    padding: 10px;
+}
+
+.analysisTitle {
+  font-family: var(--open-sans-text);
+  font-weight: var(--open-sans-weight);
+  font-size: var(--open-sans-medium);
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.analysisText {
+  font-family: var(--open-sans-text);
+  font-weight: var(--open-sans-weight);
+  font-size: var(--open-sans-small);
+  color: var(--gray);
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 1.5;
+}
+
+.buttonPosition {
+    position: relative;
+    margin: auto;
+    align-items: center;
+    left: 180px;
+}
+
+.contentContainer {
+    align-items: center;
+}
+
+.mainContainer {
+    padding: 20px;
+}
+
+.chart,.chartTitle {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.chartTitle {
+    position: absolute;
+    top: -10px;
+    left: 110px;
+}
+
+.customTooltip {
+    border: var(--button-outline-light);
+    border-radius: 15px;
+    background-color: var(--white-transparent);
+    padding: 0 10px;
+}
+
+.pageTitle {
+    font-family: var(--roboto-slab-text);
+    font-weight: var(--roboto-slab-weight);
+    font-size: var(--roboto-slab-small);
+    color: var(--black);
+    padding-top: 200px; 
+    padding-bottom: 20px;
+    margin-top: 300px;
+    text-align: center;
+}
+
+.splineContainer {
+    height: 380px;
+    padding-top: 0px;
+  
+}
+
+.chartContent {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+}

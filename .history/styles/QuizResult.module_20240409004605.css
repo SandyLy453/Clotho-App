@@ -1,0 +1,23 @@
+
+* iPhone 14 Pro */
+@media (max-width: 430px) {
+.mainContainer { 
+    height: 100vh; 
+    background-image: url('/images/quiz/Light Mode Low Opacity.png'); 
+    background-size: cover; 
+    background-position: center;
+    
+}
+
+.report {
+    list-style-type: "🌟 ";
+}
+
+.result {
+    font-family: var(--open-sans-text);
+}
+
+.title {
+    font-family: var(--roboto-slab-text);
+}
+}

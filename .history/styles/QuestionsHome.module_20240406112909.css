@@ -1,0 +1,14 @@
+
+/* iPhone 14 Pro */
+@media (max-width: 430px) {
+    
+        
+    .container {
+        align-items: center; 
+        justify-content: center; 
+        height: 100vh; 
+        background-image: url('/images/quiz/light-mode.png'); 
+        background-size: cover; 
+        background-position: center;
+    }
+}

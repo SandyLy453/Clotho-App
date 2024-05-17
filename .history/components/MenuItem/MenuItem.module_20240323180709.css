@@ -1,0 +1,11 @@
+/* Mobile */
+@media (max-width: 430px) {
+    .items {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        font-size: var(--medium);
+        padding-top: 100px;
+
+    }
+}

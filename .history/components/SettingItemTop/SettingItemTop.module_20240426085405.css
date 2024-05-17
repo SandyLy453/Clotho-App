@@ -1,0 +1,13 @@
+.box {
+    width: 400px;
+    height: 40px;
+    margin: 0 auto 0 auto;
+    align-items: center;
+    background: rgb(234, 234, 234);
+    border-radius: 5px 5px 0 0;
+}
+
+.item {
+    padding-left: 10px;
+}
+

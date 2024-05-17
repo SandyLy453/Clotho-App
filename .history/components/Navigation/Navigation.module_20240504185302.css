@@ -1,0 +1,50 @@
+.appInfo {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.appName {
+    font-size: var(--logo);
+    padding: 25px 0px 0px 10px;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.welcome {
+    font-size: var(--large);
+    padding: 0px 10px;
+}
+
+.sideNav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh; /* Full viewport height */
+    width: 250px; /* Adjust as needed */
+    background-color: #333; /* Example color */
+    z-index: 1000; /* Ensures it appears on top */
+    transform: translateX(-250px); /* Initially hidden */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.sideNav :any-link {
+    text-decoration: none;
+    color: black;
+}
+
+.box {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: calc(923px - 75px);
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 99; 
+  }

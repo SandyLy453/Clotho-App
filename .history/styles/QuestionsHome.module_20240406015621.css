@@ -1,0 +1,11 @@
+
+/* iPhone 14 Pro */
+@media (max-width: 430px) {
+    
+        
+    .container {
+        width: 80%; 
+        margin: 0 auto;
+        align-items: center;
+    }
+}

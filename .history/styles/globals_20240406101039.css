@@ -1,0 +1,30 @@
+:root {
+    
+    --transparency: rgba(0, 0, 0, 0);
+    --gray: rgb(119, 119, 119);
+    --red: rgb(201, 8, 8);
+    
+    --large: 21px;
+    --medium: 18px;
+    --small: 16px;
+    --logo: 25px;
+
+    --button-linear-light: 45deg, rgba(221, 184, 255, 0.8), rgba(214, 239, 255, 0.8);
+    --button-outline-light: 2px solid #B8C0FF;
+    --button-highlight-light: #8229E0;
+    --black: black;
+    --white: white;
+
+    --open-sans-text: 'Open Sans', sans-serif;
+    --open-sans-weight: 500; 
+    --open-sans-size: 1.5rem;
+}
+
+html, 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+

@@ -1,0 +1,80 @@
+.main {
+  background-image: url('/images/quiz/Light Mode Low Opacity.png'); 
+  background-size: cover; 
+  align-items: center;
+}
+
+.box {
+  min-height: 100vh;
+  padding-bottom: 100px;
+  width: 430px;
+}
+
+.menuIcon {
+  padding-top: 20px;
+  padding-right: 33px;
+}
+
+.userIcon {
+  padding-top: 20px;
+  padding-left: 120px;
+}
+
+.title {
+  font-family: "Roboto Slab";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.pageTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 50vh;
+}
+
+.helloUser {
+  width: 330px;
+  height: 80px;
+  background: var(--chart-color-light-purple);
+  border-radius: 15px;
+  box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.15);
+  margin-top: 30px;
+}
+
+.takeQuiz {
+  width: 430px;
+  height: 290px;
+  background-image: linear-gradient(var(--box-linear));
+  border-radius: 15px;
+  margin-top: 10px
+}
+
+.quizTitle {
+  font-family: var(--open-sans-text);
+  font-weight: var(--open-sans-weight);
+  font-size: var(--open-sans-medium);
+  padding: 20px 10px; 
+  margin: 20px;
+        
+}
+
+.quizText {
+  font-family: var(--open-sans-text);
+  font-weight: var(--open-sans-weight);
+  font-size: var(--open-sans-small);
+  padding: 10px; 
+  margin: 20px;
+        
+}

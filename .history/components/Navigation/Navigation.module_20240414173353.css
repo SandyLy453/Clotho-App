@@ -1,0 +1,28 @@
+.appInfo {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px 15px 10px;;
+}
+
+.appName {
+    font-size: var(--logo);
+    padding: 25px 0px 10px 10px;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.welcome {
+    font-size: var(--large);
+    padding: 0px 10px;
+}
+
+.sideNav {
+    position: fixed;
+    z-index: 2;
+    width: 300px;
+}
+

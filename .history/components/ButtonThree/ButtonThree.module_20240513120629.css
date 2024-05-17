@@ -1,0 +1,18 @@
+.button {
+    width: 170px; 
+    height: 50px; 
+    padding: 0;
+    font-size: 18px;
+    background-color: var(--button-highlight-light);
+    color: var(--white);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: var(--open-sans-text);
+    align-items: center;
+}
+
+.button:hover {
+    background-color: rgb(189, 43, 226);
+}
+

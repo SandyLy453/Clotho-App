@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 430px;
+    height: 82px;
+    margin: 0;
+    align-items: center;
+    background-color: var(--button-linear-light);
+}
+
+.home,.inventory,.plus,.collection,.community {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 10px 14px 10px;
+    margin: 5px;
+}
+
+.iconHolder {
+    display: block;
+}
+
+.iconHolder,
+.chosenIcon {
+    display: block;
+    border-radius: 50%;
+}
+
+
